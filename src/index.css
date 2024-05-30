@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.background{
+.background {
   background-color: black;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/public/inter/Inter-Regular.otf") format("truetype");
+}
+
+.inter {
+  font-family: "Inter", "serif";
+}
+
+@font-face {
+  font-family: "Besport";
+  src: url("/public/besport/Besport.otf") format("truetype");
+}
+
+.besport {
+  font-family: "Besort", "serif";
 }
