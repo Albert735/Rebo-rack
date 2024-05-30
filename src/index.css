@@ -23,3 +23,12 @@
 .besport {
   font-family: "Besort", "serif";
 }
+
+@font-face {
+  font-family: "ExordarOutline";
+  src: url("/public/exodar/ExodarOutline-9Yy27.ttf") format("truetype");
+}
+
+.exordar {
+  font-family: "ExodarOutline";
+}

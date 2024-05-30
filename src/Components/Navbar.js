@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center text-white w-[100dvw] ">
       <div className="p-7 ">
-        <span className="besport">Rebo</span>
-        <span>Rack</span>
+        <span className="besport text-[1.7rem]">REBO</span>
+        <span className="besport text-[1.7rem] bg-[#ed8f01] rounded-full px-2">RACK</span>
       </div>
       <div className=" bg-white/10 rounded-full px-5">
         <ul className="flex justify-center items-center gap-[4dvw] p-2.5">
