@@ -4,9 +4,6 @@ import vinyl from "../assets/vinyl-record-cassette-tape-design-resource.jpg";
 import creator from "../assets/portrait-male-audio-engineer-using-sound-mixer.jpg";
 
 const Footer = () => {
-
-    
-
   return (
     <div className="flex justify-between items-center w-[100dvw] text-white px-[2rem] ">
       <div className="flex bg-white/20 rounded-xl p-4">
@@ -25,14 +22,26 @@ const Footer = () => {
       <div className="flex bg-white/20 rounded-xl p-4 gap-5">
         <span className="flex justify-center items-start ">
           <ul className="p-[1rem] space-y-9">
-            <li className="bg-[#ed8f01] px-2 py-1 rounded-full text-center">Hip-Hop</li>
-            <li className="bg-[#a78552] px-2 py-1 rounded-full text-center">Trap</li>
-            <li className="bg-[#d9ab65] px-2 py-1 rounded-full text-center">R&b</li>
+            <li className="bg-[#ed8f01] px-2 py-1 rounded-full text-center">
+              Hip-Hop
+            </li>
+            <li className="bg-[#a78552] px-2 py-1 rounded-full text-center">
+              Trap
+            </li>
+            <li className="bg-[#d9ab65] px-2 py-1 rounded-full text-center">
+              R&b
+            </li>
           </ul>
           <ul className="p-[1rem] space-y-9">
-            <li>Drill</li>
-            <li>Latin</li>
-            <li>Club</li>
+            <li className="bg-[#f3ad45] px-2 py-1 rounded-full text-center">
+              Drill
+            </li>
+            <li className="bg-[#724f1b] px-2 py-1 rounded-full text-center">
+              Latin
+            </li>
+            <li className="bg-[#f9ab3d] px-2 py-1 rounded-full text-center">
+              Club
+            </li>
           </ul>
         </span>
         <img
