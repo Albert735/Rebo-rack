@@ -5,7 +5,7 @@ import creator from "../assets/portrait-male-audio-engineer-using-sound-mixer.jp
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center w-[100dvw] text-white px-[2rem] ">
+    <div className="flex flex-col md:flex-row justify-between items-center w-[100dvw] text-white px-[2rem] ">
       <div className="flex bg-white/20 rounded-xl p-4">
         <span>
           <h1>SOUNDRAW for Artiste</h1>
@@ -33,13 +33,13 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="p-[1rem] space-y-9">
-            <li className="bg-[#f3ad45] px-2 py-1 rounded-full text-center">
+            <li className="bg-[#f3ad45] px-4 py-1 rounded-full text-center">
               Drill
             </li>
-            <li className="bg-[#724f1b] px-2 py-1 rounded-full text-center">
+            <li className="bg-[#724f1b] px-4 py-1 rounded-full text-center">
               Latin
             </li>
-            <li className="bg-[#f9ab3d] px-2 py-1 rounded-full text-center">
+            <li className="bg-[#f9ab3d] px-4 py-1 rounded-full text-center">
               Club
             </li>
           </ul>

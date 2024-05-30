@@ -4,7 +4,7 @@ import Hero from "./Components/Hero";
 import Footer from "./Components/Footer";
 function App() {
   return (
-    <div className="background h-[100dvh] ">
+    <div className="background md:h-[100dvh]">
       <Navbar/>
       <Hero/>
       <Footer/>

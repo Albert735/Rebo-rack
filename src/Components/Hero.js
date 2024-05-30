@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="font-bold text-[1.25rem]">
               Welcome to thw music <br /> AI generation
             </p>
-            <button className="text-black bg-white px-2 py-1 rounded-full my-3">
+            <button className="text-black bg-white px-4 py-3 rounded-full my-3">
               Try it for free
             </button>
           </div>
@@ -28,12 +28,18 @@ const Hero = () => {
           alt=""
           className="rounded-full h-[25rem] w-[25rem] object-cover z-20"
         />
-        
+
         <img
           src={man2}
           alt=""
           className="rounded-full h-[25rem] w-[25rem] object-cover z-30"
         />
+      </div>
+      <div className="absolute flex top-[20rem] justify-between w-[350rem] left-[45rem] exordar z-40">
+        <p className=" justify-center items-center text-[4rem]"> Rebo</p>
+        <button className="text-black bg-white font-sans px-4 py-0 z-50">
+          Learn more
+        </button>
       </div>
       <div>
         <span className="exordar text-[25rem] ">O</span>
